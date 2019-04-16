@@ -21,8 +21,8 @@ class CreateProject extends Component {
   render() {
     return (
       <div className="container">
-        <form onSubmit={this.handleSubmit} className="white">
-            <h5 className="grey-text-darken-3">Sign in</h5>
+        <form onSubmit={this.handleSubmit} className="form-background">
+            <h5 className="grey-text">Create new project</h5>
             <div className="input-field">
                 <label htmlFor="title">Title</label>
                 <input type="text" id="title" onChange={this.handleChange} />
