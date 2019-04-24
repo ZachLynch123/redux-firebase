@@ -1,8 +1,7 @@
 import React from 'react';
 
 const ProjectSummary = (props) => {
-    console.log(props);
-    const { id, title, content } = props.project;
+    const { title, content } = props.project;
     return(
         <div className="card z-depth-0 project-summary">
             <div className="card-content grey-text text-darken-3">
