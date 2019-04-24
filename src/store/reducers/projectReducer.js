@@ -7,6 +7,18 @@ const initState = {
 };
 
 const projectReducer = (state = initState, action) => {
+    // check action type create read update delete
+    // detect create
+    switch(action.type) {
+        case 'CREATE_PROJECT':
+        console.log('created project', action.project);
+        break;
+        
+        default:
+        console.log('default');
+        
+    }
+
     return state;
 }
 
